@@ -1,7 +1,10 @@
-import Head from 'next/head';
-import styles from '../../styles/Home.module.css';
+import Head from "next/head";
+import styles from "../../styles/Home.module.css";
 
 export default function Details() {
+  const redirecttoNativeApp = (/*potential params */) => {
+    document.location = "reactnativedeeplink://";
+  };
   return (
     <div className={styles.container}>
       <Head>
@@ -10,13 +13,16 @@ export default function Details() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Welcome to Details page
-        </h1>
+        <h1 className={styles.title}>Welcome to Details page</h1>
+
         <div className={styles.grid}>
           <a href="/" className={styles.card}>
             <h3>&rarr; Home</h3>
           </a>
+        </div>
+
+        <div className={styles.grid}>
+          <button onClick={redirecttoNativeApp}>Click to go to app</button>
         </div>
       </main>
     </div>
