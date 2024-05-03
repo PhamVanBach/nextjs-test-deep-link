@@ -16,14 +16,16 @@ export default function Details() {
         <h1 className={styles.title}>Welcome to Details page</h1>
 
         <div className={styles.grid}>
+          <button onClick={redirecttoNativeApp}>Click to go to app</button>
+        </div>
+
+        <div className={styles.grid}>
           <a href="/" className={styles.card}>
             <h3>&rarr; Home</h3>
           </a>
         </div>
 
-        <div className={styles.grid}>
-          <button onClick={redirecttoNativeApp}>Click to go to app</button>
-        </div>
+       
       </main>
     </div>
   );

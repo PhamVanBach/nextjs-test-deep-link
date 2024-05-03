@@ -18,13 +18,12 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
 
+        <p className={styles.description}>Version 0.0.1</p>
+
         <div className={styles.grid}>
           <a href="/details" className={styles.card}>
             <h3>Details &rarr;</h3>
           </a>
-        </div>
-        <div className={styles.grid}>
-          <h6>Version 0.0.1</h6>
         </div>
       </main>
     </div>
