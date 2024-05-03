@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 
-export default function Home() {
+export default function Details() {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,16 +11,11 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Details page
         </h1>
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
-          <a href="/details" className={styles.card}>
-            <h3>Details &rarr;</h3>
+          <a href="/" className={styles.card}>
+            <h3>&rarr; Home</h3>
           </a>
         </div>
       </main>
