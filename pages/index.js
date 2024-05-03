@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -22,6 +22,9 @@ export default function Home() {
           <a href="/details" className={styles.card}>
             <h3>Details &rarr;</h3>
           </a>
+        </div>
+        <div className={styles.grid}>
+          <h6>Version 0.0.1</h6>
         </div>
       </main>
     </div>
