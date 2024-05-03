@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-const BUNDLE_ID = 'reactnativedeeplink' // replace with your bundle ID
+const BUNDLE_ID = 'reactnativedeeplink://' // replace with your bundle ID
 
 const association = {
   applinks: {
