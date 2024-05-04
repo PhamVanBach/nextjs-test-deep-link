@@ -19,6 +19,8 @@ export default function Details() {
           <button onClick={redirecttoNativeApp}>Click to go to app</button>
         </div>
 
+        <a href="https://nextjs-test-deep-link.vercel.app/">Click to go to nextjs-test-deep-link</a>
+
         <div className={styles.grid}>
           <a href="/" className={styles.card}>
             <h3>&rarr; Home</h3>
