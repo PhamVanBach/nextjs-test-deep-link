@@ -18,7 +18,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
 
-        <p className={styles.description}>Version 0.0.2</p>
+        <p className={styles.description}>Version 0.0.3</p>
 
         <div className={styles.grid}>
           <a href="/details" className={styles.card}>
