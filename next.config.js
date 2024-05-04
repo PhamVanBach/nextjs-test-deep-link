@@ -2,6 +2,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        reactStrictMode: true,
+        webpack5: true,
         source: "/.well-known/:file",
         destination: "/api/.well-known/:file",
         permanent: false,
@@ -10,4 +12,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;
