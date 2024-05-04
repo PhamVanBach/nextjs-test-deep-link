@@ -20,7 +20,7 @@ export default function Details() {
         </div>
         <div className={styles.grid}>
           <a
-            href="https://nextjs-test-deep-link.vercel.app/"
+            href="https://nextjs-test-deep-link.vercel.app"
             className={styles.description}
           >
             Click to go to nextjs-test-deep-link
